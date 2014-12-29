@@ -37,6 +37,11 @@ import java.util.Properties;
 
 public class Agreement  {
 
+	private String state;
+	
+	public String getState(){
+		return state;
+	}
 	/**
 	 * Identifier of the agreement.
 	 */
